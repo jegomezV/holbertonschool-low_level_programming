@@ -8,9 +8,15 @@ int main(void)
 	char alpha = 'a';
 	char ALPHA = 'A';
 
-	for (; alpha < 'z' ; alpha++)
+	for (; alpha <= 'z' ; alpha++)
+	{
 	putchar(alpha);
-	for (; ALPHA < 'Z' ; ALPHA++)
+	putchar('\n');
+	}
+	for (; ALPHA <= 'Z' ; ALPHA++)
+	{
 	putchar(ALPHA);
+	putchar('\n')
+	}
 	return (0);
 }
