@@ -9,9 +9,16 @@ int main(void){
 int n;
 n = rand() - RAND_MAX / 2;
 
-if (n < 0 = es negativo);
-if (n > 0 = es positivo);
-if (n = 0 = es cero);
+if (n < 0);
+{
+    printf ("is negative");
+}
+if (n > 0);{
+    printf("is positive");
+}
+if (n = 0);{
+    printf("is zero")
+}
 
 
 return (0);
