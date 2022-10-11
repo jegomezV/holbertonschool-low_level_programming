@@ -1,7 +1,7 @@
 #include<stdio.h>
 /**
 * main - punto de entrada
-*Return: es 0
+* Return: es 0
 */
 int main(void)
 {
