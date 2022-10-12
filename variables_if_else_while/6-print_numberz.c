@@ -9,8 +9,8 @@
 
 	while (number < 10)
 {
-	number++;
 	putchar('0' + number);
+	number++;
 }
 	putchar('\n');
 	return (0);
