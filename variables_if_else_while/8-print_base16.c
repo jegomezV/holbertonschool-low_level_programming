@@ -9,12 +9,12 @@ int main(void)
 	char let = 'a';
 	char word = '0';
 
-		for (word = '0'; word <= '9' ; word++)
-			putchar(word);
+	for (word = '0'; word <= '9'; word++)
+		putchar(word);
 
-		for (let = 'a'; let <= 'f' ; let++)
-			putchar(let);
+	for (let = 'a'; let <= 'f' ; let++)
+		putchar(let);
 
-			putchar('\n');
-return (0);
+		putchar('\n');
+	return (0);
 }
