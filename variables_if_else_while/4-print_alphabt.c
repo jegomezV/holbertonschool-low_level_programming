@@ -5,14 +5,20 @@
 */
 int main(void)
 {
-	char alpha = 'a';
+	char a = 'a';
 
-		for (; alpha < 'z' ; alpha++)
+		while (a <= 'z')
 		{
-			if (alpha != 'q' || alpha != 'e')
-			putchar(alpha);
+			if (a == 'q' || a == 'e')
+			{
+				a++;
+			}
+			else
+			{
+				putchar(a);
+				a++;
+			}
 		}
 		putchar('\n');
-
 		return (0);
 }
