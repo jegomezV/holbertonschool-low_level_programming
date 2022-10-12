@@ -15,6 +15,6 @@ int main(void)
 	for (let = 'a'; let <= 'f' ; let++)
 		putchar(let);
 
-		putchar('\n');
+	putchar('\n');
 	return (0);
 }
