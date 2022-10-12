@@ -6,16 +6,15 @@
 */
 int main(void)
 {
-	char a = 'a';
+	char let = 'a';
 	char word = '0';
 
-		for (; word <= '9' ; word++)
+		for (word = '0'; word <= '9' ; word++)
 			putchar(word);
 
-		for (; a <= 'f' ; a++)
-			putchar(a);
+		for (let = 'a'; a <= 'f' ; let++)
+			putchar(let);
 
 			putchar('\n');
-
 return (0);
 }
