@@ -7,18 +7,14 @@
 int main(void)
 {
 	char a = 'a';
-	int n = 0;
+	char word = '0';
 
-		for (n = 0 ; n <= 9 ; n++)
-		{
-			putchar(n);
-		}
+		for (; word <= '9' ; word++)
+			putchar(word);
 
-		for (a = 'a'; a <= 'f' ; a++)
-		{
+		for (; a <= 'f' ; a++)
 			putchar(a);
-		}
-		
+
 			putchar('\n');
 
 return (0);
