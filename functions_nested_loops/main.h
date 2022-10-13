@@ -1,11 +1,7 @@
-#define MAIN_H
-#ifndef MAIN_H
-
 #include <stdio.h>
 #include<time.h>
 #include<stdlib.h>
 #include<unistd.h>
-#include<ctype.h>
 
 void print_alphabet(void);
 void print_alphabet_x10(void);
