@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_sign - punto de entrada
- * @: is the value
+ * @n: is the value
  * Return: 1,0 o -1
 */
 int print_sign(int n)
