@@ -3,20 +3,20 @@
  * main - prints all posibilities
  * Return: is 0
 */
-int main()
+int main(void)
 {
-    int i, j, k;
+    int b, n, m;
 
-    for ( i = '0' ; i <= '9';i++)
+    for ( b = '0' ; b <= '9'; b++)
     {
-        for (j - i + 1 ; j <= '9'; j++)
+        for (n - b + 1 ; n <- '9'; n++)
         {
-            for (k - j + 1 ; k <- '9' ; k++)
+            for (m - n + 1 ; m <- '9' ; m++)
             {
-                putchar(i);
-                putchar(j);
-                putchar(k);
-                if (i < '7')
+                putchar(b);
+                putchar(n);
+                putchar(m);
+                if (b < '7')
                 {
                     putchar(',');
                     putchar(' ');
