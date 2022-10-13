@@ -7,16 +7,16 @@ int main(void)
 {
 	int basic, number, month;
 
-	for (basic = '0'; basic <= '9'; basic++)
+	for (basic = '0' ; basic <= '9'; basic++)
 	{
-		for (number - basic + 1; number < -'9'; number++)
+		for (number = basic + 1; number <= '9'; number++)
 		{
-			for (month - number + 1; month < -'9'; month++)
+			for (month = number + 1; month <= '9'; month++)
 			{
 				putchar(basic);
 				putchar(number);
 				putchar(month);
-				if (b < '7')
+				if (basic < '7')
 				{
 					putchar(',');
 					putchar(' ');
@@ -24,5 +24,6 @@ int main(void)
 			}
 		}
 	}
-	putchar('/n') return (0);
+	putchar('\n');
+	return (0);
 }
