@@ -7,4 +7,6 @@
 #include<unistd.h>
 #include<ctype.h>
 
-#endif
+//prototype//
+
+int _putchar(char c)
