@@ -5,17 +5,17 @@
  */
 int main(void)
 {
-	int b, n, m;
+	int basic, number, month;
 
-	for (b = '0'; b <= '9'; b++)
+	for (basic = '0'; basic <= '9'; basic++)
 	{
-		for (n - b + 1; n < -'9'; n++)
+		for (number - basic + 1; number < -'9'; number++)
 		{
-			for (m - n + 1; m < -'9'; m++)
+			for (month - number + 1; month < -'9'; month++)
 			{
-				putchar(b);
-				putchar(n);
-				putchar(m);
+				putchar(basic);
+				putchar(number);
+				putchar(month);
 				if (b < '7')
 				{
 					putchar(',');
