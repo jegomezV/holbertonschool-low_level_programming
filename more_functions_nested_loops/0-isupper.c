@@ -1,5 +1,9 @@
 #include "main.h"
-
+/**
+ * _isupper - searching
+ * @c: character
+ * Return: 1 or 0
+*/
 int _isupper(int c)
 {
 
