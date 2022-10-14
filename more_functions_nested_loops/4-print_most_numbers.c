@@ -1,6 +1,6 @@
 #include "main.h"
-/**print_most_numbers - not 2 or 4
- *
+/**
+ * print_most_numbers - not 2 or 4
  *Return: not
  */
 void print_most_numbers(void)
