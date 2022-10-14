@@ -1,8 +1,18 @@
 #include "main.h"
-
-int add(int, int)
+/**
+  *add - adds two numbers for probllem
+  *
+  *@a: first number
+  *@b: second number
+  *
+  *Return: sum 2 numbers
+  */
+int add(int a, int b)
 {
 
+	int sum;
 
-    return (0);
+	sum = a + b;
+
+		return (sum);
 }
