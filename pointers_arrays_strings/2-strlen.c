@@ -8,16 +8,8 @@
 
 int _strlen(char *s)
 {
+	int a;
 
-	char *s;
-	int contador = 0;
-
-	while (cadena[contador] != 0)
-	{
-		contador++;
-	}
-	printf("La longitud de '%s' es %d", s, contador);
-
-	return (0);
-
+	a = strlen(s);
+	return (a);
 }
