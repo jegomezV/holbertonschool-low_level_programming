@@ -9,7 +9,7 @@
 int _strlen(char *s)
 {
 	char *s;
-	int longitud = strlen(s);
+	int longitud = _strlen(s);
 
 	printf("La longitud de la cadena '%s' es: %d", s, longitud);
 	return 0;
