@@ -1,18 +1,16 @@
 #include "main.h"
+#include <string.h>
 /**
  * _strlen - sting long
  * @s: var
  * Return: 0
-*/
+ */
 
 int _strlen(char *s)
 {
 	char *s;
-	int tring;
+	int longitud = strlen(s);
 
-	s = "My first strlen!";
-    tring = strlen(s);
-    printf("%d\n", tring);
-
-	return (0);
+	printf("La longitud de la cadena '%s' es: %d", s, longitud);
+	return 0;
 }
