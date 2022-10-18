@@ -1,4 +1,8 @@
 #include "main.h"
+/**
+ * puts2 - print
+ * 
+*/
 
 void puts2(char *str)
 {
