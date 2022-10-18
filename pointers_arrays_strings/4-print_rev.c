@@ -1,4 +1,9 @@
 #include "main.h"
+/**
+ * _strlen - string counter
+ * @s: string
+ * Return: result
+ */
 
 int _strlen(char *s)
 {
@@ -23,6 +28,7 @@ void print_rev(char *s)
 
 	for (i = _strlen(s) - 1; i >= 0; i--)
 	{
-		_putchar(s[i]);
+		putchar(s[i]);
 	}
+	putchar('\n');
 }
