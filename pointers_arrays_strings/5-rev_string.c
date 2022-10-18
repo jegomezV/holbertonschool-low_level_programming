@@ -1,16 +1,29 @@
 #include "main.h"
 #include <stdio.h>
 #include <string.h>
-#include <conio.h>
 /**
  * rev_string - reverse string
  *
  */
 void rev_string(char *s)
 {
-char s[10] = "My School";
-strrev(s);
-puts(s);
 
-	return (0);
+	int b;
+	int a = 0;
+	int c;
+	char d;
+
+	while (s[a] != '\0')
+	{
+		a++;
+	}
+
+	b = a - 1;
+	for (c = 0; c < a / 2; c++)
+	{
+		d = s[c];
+		s[c] = s[b];
+		s[b] = d;
+		b--;
+	}
 }

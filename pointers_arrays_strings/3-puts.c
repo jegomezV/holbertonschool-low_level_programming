@@ -9,5 +9,23 @@
 
 void _puts(char *str)
 {
-puts(str);
+
+int i;
+int a = 0;
+int b;
+char c;
+
+while (s[a] != '\0 ')
+{
+    a++;
+}
+
+b = a - 1;
+
+for ()
+{
+
+}
+
+
 }
