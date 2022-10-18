@@ -1,9 +1,8 @@
 #include "main.h"
 /**
  * puts2 - print
- * 
+ * @str: var
 */
-
 void puts2(char *str)
 {
 
