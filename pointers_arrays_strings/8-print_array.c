@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 /**
  *print_array - function a string
  *@a: varible
@@ -7,15 +6,14 @@
  */
 void print_array(int *a, int n)
 {
-	int i;
+	int i = 0;
 
-	for (i = 0; i < n; i++)
+	for (; i < n; i++)
 	{
-	if (i < n - 1)
-		printf("%d, ", a[i]);
+	if (i == 0)
+		printf("%d", a[i]);
 	else
-		printf("%d\n", a[i]);
+		printf(", %d", a[i]);
 	}
-	if (n <= 4)
 		printf("\n");
 }
