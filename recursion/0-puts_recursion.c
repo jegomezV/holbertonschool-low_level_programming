@@ -1,4 +1,8 @@
 #include "main.h"
+/**
+ * _puts_recursion - p s
+ * @s: string
+*/
 
 void _puts_recursion(char *s)
 {
