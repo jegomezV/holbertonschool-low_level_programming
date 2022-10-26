@@ -10,7 +10,7 @@ char *_strchr(char *s, char c)
 {
 	int x, y;
 
-	y = strlen(s);
+	y = _strlen(s);
 	x = 0;
 	while (x < y)
 	{
