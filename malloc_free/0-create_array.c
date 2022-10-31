@@ -2,7 +2,7 @@
 /**
  * create_array - function name
  * @size: size
- * @c: character 
+ * @c: character
  * Return: NULL - arr
 */
 
