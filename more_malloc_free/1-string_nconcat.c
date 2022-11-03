@@ -8,7 +8,7 @@
 */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	unsigned int s1l, s2l, p, c = 0, 0, 0, 0;
+	unsigned int s1l = 0, s2l = 0, p = 0, c = 0;
 	char *ptr = 0;
 
 	if (s1 == NULL)
