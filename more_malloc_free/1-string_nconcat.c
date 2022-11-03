@@ -28,7 +28,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	if (ptr == NULL)
 		return (NULL);
 
-	for (; p < s1l; p++)
+	for (p = 0; p < s1l; p++)
 		ptr[p] = s1[p];
 
 	for (c = 0; c < n && c < s2l; c++, p++)
