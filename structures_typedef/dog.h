@@ -4,6 +4,10 @@
 
 /**
  * struct dog - dog data
+ * @name: dog name
+ * @age: dog age
+ * @owner: dog owner
+ * Return:0
 */
 struct dog
 {
