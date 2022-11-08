@@ -1,5 +1,12 @@
 #include <stdio.h>
 
+struct dog
+{
+char *name;
+float age;
+char *owner;
+};
+
 /**
  * main - check the code
  *
