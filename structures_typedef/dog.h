@@ -4,12 +4,11 @@
 #include <stdlib.h>
 
 /**
- * init_dog - the function name
  * struct dog - dog data
- * 
- * @name: dog name
- * @age: dog age
- * @owner: dog owner
+ * @d:the pointer to do the operation
+ * @name:the pointer with the name
+ * @age:the pointer with the dog age
+ * @owner:the pointer with the owner name
  * Return:0
 */
 struct dog
