@@ -5,7 +5,6 @@
 
 /**
  * struct dog - dog data
- * @d:the pointer to do the operation
  * @name:the pointer with the name
  * @age:the pointer with the dog age
  * @owner:the pointer with the owner name
