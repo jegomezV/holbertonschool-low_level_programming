@@ -1,7 +1,4 @@
 #include "dog.h"
-#include <stdio.h>
-#include <stdlib.h>
-
 /**
  * init_dog - the function name
  * @d:the pointer to do the operation

@@ -1,8 +1,10 @@
 #ifndef _DOG_H_
 #define _DOG_H_
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
+ * init_dog - the function name
  * struct dog - dog data
  * @name: dog name
  * @age: dog age
