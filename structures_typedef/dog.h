@@ -6,6 +6,7 @@
 /**
  * init_dog - the function name
  * struct dog - dog data
+ * 
  * @name: dog name
  * @age: dog age
  * @owner: dog owner
@@ -22,4 +23,5 @@ struct dog
  * prototypes
 */
 void init_dog(struct dog *d, char *name, float age, char *owner);
+void print_dog(struct dog *d);
 #endif

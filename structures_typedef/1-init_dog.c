@@ -1,6 +1,7 @@
 #include "dog.h"
 /**
  * init_dog - the function name
+ * 
  * @d:the pointer to do the operation
  * @name:the pointer with the name
  * @age:the pointer with the dog age
