@@ -20,11 +20,11 @@ dog_t *new_dog(char *name, float age, char *owner)
 
 	if (new_dog == NULL)
 	{
-		free (new_dog);
+		free(new_dog);
 		return (NULL);
 	}
 
-	printf("My name is %s,and I am %f", name, age);
+	printf("My name is %s, I am %d, and my owner is %s\n", name, age, owner);
 
 	return (new_dog);
 }
