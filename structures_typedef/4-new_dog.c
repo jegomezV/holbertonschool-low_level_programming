@@ -26,7 +26,5 @@ dog_t *new_dog(char *name, float age, char *owner)
 		return (NULL);
 	}
 
-	printf("My name is %s, I am %f, and my owner is %s\n", name, age, owner);
-
 	return (new_dog);
 }
