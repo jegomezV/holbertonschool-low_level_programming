@@ -22,11 +22,11 @@ dog_t *new_dog(char *name, float age, char *owner)
 			return (NULL);
 			}
 
-		new_dog->name = malloc( namel + 1);
+		new_dog->name = malloc(namel + 1);
 		if (name == NULL)
 			{
 			free(new_dog);
-			free(name);
+			free(new_dog->name);
 			return (NULL);
 			}
 
@@ -37,8 +37,8 @@ dog_t *new_dog(char *name, float age, char *owner)
 		if (owner == NULL)
 			{
 			free(new_dog);
-			free(name);
-			free(owner);
+			free(new_dog->name);
+			free(new_dog->owner);
 			return (NULL);
 			}
 
