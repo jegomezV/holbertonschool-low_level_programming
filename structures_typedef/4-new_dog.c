@@ -4,6 +4,7 @@
  * @name:dog name
  * @age:dog age
  * @owner:dog owner
+ * Return: new_dog
 */
 
 dog_t *new_dog(char *name, float age, char *owner)
@@ -18,7 +19,10 @@ dog_t *new_dog(char *name, float age, char *owner)
 	new_dog = malloc(sizeof(char) * (n + o + 1));
 
 	if (new_dog == NULL)
+	{
+		free (new_dog);
 		return (NULL);
+	}
 
 	printf("My name is %s,and I am %f", name, age);
 
