@@ -1,7 +1,26 @@
 #include "dog.h"
-
+/**
+ * print_dog - the funtion name
+ * @d: the pointer
+*/
 void print_dog(struct dog *d)
 {
-    if (d == NULL)
-        printf("nil");
+	char *name = (*d).name;
+	float age = d->age;
+	char *owner = (*d).owner;
+
+	if (d != NULL)
+	{
+		if (name == NULL)
+			printf("Name: (nil)");
+		else
+			printf("Name: %s\n", name);
+
+		printf("Age: %f\n", age);
+
+		if (owner == NULL)
+			printf("(nil)");
+		else
+			printf("Owner: %s\n", owner);
+	}
 }
