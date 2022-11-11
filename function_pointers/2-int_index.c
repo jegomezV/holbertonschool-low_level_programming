@@ -5,7 +5,7 @@
  * @size:length
  * @cmp:the pointer to the function
  * Return:-1 or ptr
-*/
+ */
 
 int int_index(int *array, int size, int (*cmp)(int))
 {
@@ -17,8 +17,8 @@ int int_index(int *array, int size, int (*cmp)(int))
 			return (-1);
 
 		for (elements = 0; elements < size1; elements++)
-
-		if (cmp(array[elements]))
+		{}
+			if (cmp(array[elements]))
 				return (elements);
 	}
 	return (-1);
