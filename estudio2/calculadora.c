@@ -27,4 +27,13 @@ int main(void)
         printf("El resultado es:  %d\n", );
 
 
+el siguiente codigo es pieza del:
+SI ES DISTINTO A UN NUMERO Y EL USUARIO HA PUESTO EL 0 PRIMERO QUE EL ATOI
+
+	if (argv[1][1] != '0' && atoi(argv[1]) == 0){
+		printf("error por argumento 1 no valido\n");
+		exit(98);
+	}
+    printf("es correcto");
+
 }
